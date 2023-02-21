@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | suraj</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="bg-gray-800 min-h-screen flex justify-center items-center">
+
+        <div class="bg-gray-900 rounded-lg w-full max-w-md p-8 relative">
+
+          <div class="text-white text-5xl font-bold text-right mb-6" id="output">0</div>
+
+          <div class="grid grid-cols-4 gap-4">
+
+            <button class="calculator-btn calculator-ac-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 py-3 rounded-sm" id="reset">AC</button>
+
+            <button class="calculator-btn calculator-plus-minus-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 py-3 rounded-sm text-lg"
+            id="del">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+
+            <button class="operator calculator-btn calculator-percent-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 py-3 rounded-sm text-lg">%</button>
+
+            <button class="calculator-btn calculator-divide-btn text-yellow-500 hover:text-white font-bold bg-gray-800 hover:bg-yellow-500 active:bg-yellow-600 py-3 rounded-sm text-lg">÷</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">7</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">8</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">9</button>
+
+            <button class="operator calculator-btn calculator-multiply-btn text-yellow-500 hover:text-white font-bold bg-gray-800 hover:bg-yellow-500 active:bg-yellow-600 py-3 rounded-sm text-lg">×</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">4</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">5</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">6</button>
+
+            <button class="operator calculator-btn calculator-minus-btn text-yellow-500 hover:text-white font-bold bg-gray-800 hover:bg-yellow-500 active:bg-yellow-600 py-3 rounded-sm text-lg">-</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">1</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">2</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn py-3 rounded-sm text-lg">3</button>
+
+            <button class="operator calculator-btn calculator-plus-btn text-yellow-500 hover:text-white font-bold bg-gray-800 hover:bg-yellow-500 active:bg-yellow-600 py-3 rounded-sm text-lg">+</button>
+
+            <button class="calculator-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 calculator-number-btn col-span-2 py-3 rounded-sm text-lg">0</button>
+
+            <button class="calculator-btn calculator-decimal-btn text-gray-800 bg-gray-300 hover:bg-gray-400 active:bg-gray-500 py-3 rounded-sm text-lg">.</button>
+
+            <button class="calculator-btn calculator-equal-btn text-white bg-yellow-500 hover:bg-yellow-400 active:bg-yellow-600 py-3 rounded-sm text-lg" id="result">=</button>
+
+
+          </div>
+          <div class="h-4 w-4 rounded-full bg-red-500 absolute -top-2 -right-2"></div>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+      <script src="https://kit.fontawesome.com/c6cc394991.js" crossorigin="anonymous"></script>
+</body>
+</html>
